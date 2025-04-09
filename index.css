@@ -1,0 +1,374 @@
+body {
+    background-color: rgb(246, 219, 224);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    overflow: hidden;
+    height: 100vh;
+    font-family: Amaranth;
+}
+
+h1 {
+    text-shadow: 1px 1px rgb(122, 131, 220);
+    color:  rgba(201, 82, 82, 0.897); 
+    font-size: 34px;
+    font-family: Amaranth;
+    font-weight: 300; 
+    display: flex;
+    justify-content: flex-end;
+    position: fixed; 
+    top: 0;
+    right: 0;
+    padding-top: 50px;
+    padding-right: 60px;
+  }
+
+
+hr {
+    position: absolute;
+    width: 20%;
+    top: 125px;
+    right: 90px;
+    border: 3px solid;
+    border-image: linear-gradient(to right, rgb(61, 72, 190), rgba(192, 95, 95, 0.5)) 1;
+}
+/************************************************************/
+.outline {
+    position: fixed;
+    margin-top: -200px;
+    margin-left: 80px;
+    border: 3px solid rgb(61, 72, 190);
+    width: 750px;
+    height: 580px;
+    border-radius: 30px;
+    transition: 0.3s;
+    /*box-shadow: 0 0 30px rgba(192, 95, 95, 0.5); */
+    background-color: rgb(215, 207, 237);
+    box-shadow: -15px 10px 10px rgba(192, 95, 95, 0.5);
+    border-style: dashed;
+    z-index: -10;
+}
+
+/*************************************************************/
+.mouse {
+  position: absolute;
+  left: 270px;
+  bottom: 90px;
+  width: 60%;
+  height: 60%;
+}
+
+.keyboard {
+   position: absolute;
+   left: 100px;
+   bottom: 50px;
+   width: 80%;
+   height: 80%;
+
+}
+
+.screenpicture {
+    position: relative;
+    left: 210px;
+    top: 50px;
+    width: 55%;
+    height: 35%;
+}
+
+.screen1 {
+    width: 280px;
+    height: 170%;
+    object-fit: cover;
+    
+}
+.me {
+    position: absolute;
+    top: 62%; 
+    left: 28%;
+    width: 47%; 
+    height: 95%;
+    transform: translate(-50%, -50%); 
+}
+
+/***********************************************************************/
+
+
+nav {
+    
+    width: 250px;
+    position: fixed;
+    top: 170px;
+    right: 80px;
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none; 
+    display: flex; 
+    flex-direction: column;
+    gap: 40px;
+}
+
+nav ul li {
+    width: 50%;
+    color: rgb(90, 113, 193); 
+    font-size: 20px;
+    display: block;
+    padding: 10px 15px;
+    text-align: center;
+    border: 3px solid rgb(61, 72, 190);
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(192, 95, 95, 0.5); 
+}
+/***********************************************************************/
+
+#aboutme {
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 50%;
+    height: 60%;
+    padding: 26px;
+    color: rgb(61, 72, 190);
+    font-size: 20px;
+    position: relative;
+}
+
+h2 {
+  padding-top: 0;
+  padding-left: 30px;
+}
+
+.line1 {
+  border: 2px solid;
+  border-image: linear-gradient(to right, rgb(61, 72, 190), rgba(192, 95, 95, 0.5)) 1;
+  position: absolute;
+  margin-top: 260px;
+  margin-right: 350px;
+  width: 10%
+}
+.line2 {
+  border: 2px solid;
+  border-image: linear-gradient(to right, rgb(61, 72, 190), rgba(192, 95, 95, 0.5)) 1;
+  position: absolute;
+  margin-top: 260px;
+  margin-right: 130px;
+  width: 10%
+}
+.imagelink {
+  padding-top: 25px;
+  padding-left: 220px;
+}
+
+
+pre,p {
+    font-size: 17px;
+    padding: 10px;
+}
+/***********************************************************************/
+#resume {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 50%;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 26px; 
+    color: rgb(61, 72, 190);
+    font-size: 20px;
+}
+/***********************************************************************/
+#mywork {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    width: 50%;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 26px; 
+    color: rgb(61, 72, 190);
+    font-size: 20px;
+}
+.firstline {
+  display: flex;
+  align-items: center; 
+}
+.first, .second {
+   display: inline;
+   background-color: #f2eeeb;
+   color:#a36437;
+   margin-top: 40px;
+   margin-right: 20px;
+   border: 1px solid rgb(165, 109, 109);
+   width: 3%;
+   text-align: center;
+   border-radius: 80%;
+}
+.project1 {
+  margin-right: 130px; 
+}
+
+.project1, .project2 {
+  margin-top: 20px;
+  font-family: Amaranth;
+  border: 1.5px solid rgba(104, 71, 180, 0.5);
+  border-radius: 30px;
+  transition: 0.3s;
+  box-shadow: 0 5px rgba(180, 173, 207, 0.5);
+  background-color: rgb(246, 226, 229);
+  color:  rgb(109, 74, 48);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.project1:hover {
+  color:  rgb(61, 72, 190);
+}
+
+.project2:hover {
+  color: rgb(61, 72, 190);
+}
+
+.workline {
+  position: relative;
+}
+
+.workline::after {
+  content: '';
+  position: absolute;
+  top: -2px; 
+  right: -2px; 
+  bottom: -2px; 
+  width: 1.5px; 
+  height: 240px;
+  margin-top: 60px;
+  margin-right: 320px;
+  background: linear-gradient(to bottom, rgb(61, 72, 190), rgba(192, 95, 95, 0.5));
+}
+
+.personal, .team {
+   display: inline;
+   font-size: 18px;
+   padding: 110px;
+   margin-right: 40px;
+} 
+
+.personalhr {
+  display: inline-block; 
+  width: 10%;
+  margin-right: 850px;
+  margin-top: 130px;
+  border: 1px solid rgb(78, 86, 181);
+  border-style: dashed;
+} 
+.teamhr {
+  display: inline-block; 
+  width: 10%;
+  margin-right: 520px;
+  margin-top: 130px;
+  border: 1px solid rgb(78, 86, 181);
+  border-style: dashed;
+}
+/***********************************************************************/
+label {
+    display: block;
+    margin: 0.6rem 0;
+    line-height: 1.5;
+  }
+#connect {
+    top: 0;
+    left: 0;
+    color: rgb(78, 86, 181);
+    font-size: 16px;
+}
+.survey-form {
+    width: 80%;
+  }
+ h3 {
+    color: rgb(61, 72, 190);
+    padding-top: 35px;
+    padding-left: 370px;
+    padding-bottom: -3px;
+    font-size: 27px;
+  }
+.description {
+    font-size: 16px;
+    padding-top: 1px;
+    padding-left: 120px;
+    padding-bottom: 2px;
+  }
+
+form {
+    margin-left: 250px;
+    max-width: 450px;
+    min-width: 300px;
+  }
+fieldset {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(61, 72, 190);
+    padding-top: -9em;
+    padding-left: 3.5em;
+    background-color: #f9f9f9;
+  }
+
+input,
+select {
+  margin: 1px 0 0 0;
+  width: 80%;
+  min-height: 2em;
+}
+textarea {
+  margin: 10px 0 0 0;
+  width: 80%;
+  min-height: 6em;
+}
+input, textarea {
+  border: 2px solid;
+  border-image: linear-gradient(to left, rgb(61, 72, 190), rgba(192, 95, 95, 0.5)) 1;
+  clip-path: inset(0 round 6px);
+  background-color: #f9f9f9;
+  color: #9d592b;
+}
+
+input[type="submit"] {
+  border-radius: 40px;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(192, 95, 95, 0.5);
+  display: block;
+  width: 15%;
+  margin: 0.2em auto;
+  height: 1.5em;
+  font-size: 1.5rem;
+  background-color: #f9f6f5;
+  color: #a36437;
+  min-width: 100px;
+  font-family: Amaranth;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: rgb(61, 72, 190);
+}
+
+
+/************************************/
+ a {
+    color: rgb(49, 153, 197);
+    text-decoration: none;
+    
+  }
+  
+  a:hover {
+    color: brown;
+    
+  }
+  
+  a:active {
+    color: black;
+    
+  }
+
+
