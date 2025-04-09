@@ -1,0 +1,347 @@
+/* Resetting margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HOME***************************************/
+
+#home {
+    overflow: hidden;
+    background-image: url(images/background3.jpg); 
+    width: 100%;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+    padding: 4rem 2rem 2rem; 
+    padding-top: calc(4rem + 60px); 
+    text-align: center;
+
+}
+
+#home h1 {
+    font-size: 2.1rem;
+}
+/*ABOUT***************************************/
+#about {
+    overflow: hidden;
+    background-image: url(images/background01.jpg); 
+    object-fit: cover;
+    text-align: left;
+    padding-left: 90px;
+    color:#85142c;
+}
+
+#about img {
+    top: 250px;
+    right: -260px; 
+    position: absolute;
+}
+
+#about h2 {
+    font-family: Artifika;
+    padding-left: 20px;
+    color: rgb(188, 51, 51);
+}
+
+#about hr {
+    width: 40%;
+    border: 1px solid;
+    border-image: linear-gradient(to right,rgb(188, 51, 51), rgba(16, 17, 17, 0.5)) 1;;
+    
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/*TEAM***************************************/
+#team {
+    overflow: hidden;
+    background-image: url(images/background5.jpg);
+    font-family: Artifika;
+    background-color: #ffffff;
+    color:  rgb(188, 51, 51);
+}
+#team hr {
+    width: 30%;
+    margin-left: 430px;
+    border: 1px solid rgb(188, 51, 51);
+}
+#team h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+#team h3 {
+    border: 2px solid rgb(188, 51, 51);
+    border-radius: 50px;
+    border-style: dashed;
+    width: 120px;
+    height: 30%;
+    box-shadow: 0 0 10px rgba(192, 95, 95, 0.5);
+}
+.teamgroup {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.team-member {
+    text-align: center;
+    padding: 60px;
+
+}
+
+.team-photo {
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+/*CONTACT***************************************/
+#contact {
+    overflow: hidden;
+    background-image: url(images/background04.jpg);
+    
+    text-align: center;
+}
+.group{
+    margin-top: 90px;
+    margin-left: 250px;
+    position: relative
+}
+.group1 {
+    border: 2px solid rgb(188, 51, 51);
+    background-color: #ece1e1;
+    width: 75%;
+    text-align: center;
+    height: 300px;
+    position: absolute;
+}
+
+.group2 {
+    font-size: 28px;
+    padding-top: 20px;
+    padding-left: 270px;
+    text-align: center;
+    position: absolute;
+    font-family: Artifika;
+    color: rgb(188, 51, 51);
+}
+
+.group4 {
+    color:#85142c;
+    padding-top: 110px;
+    padding-left: 25px;
+    position: absolute;
+}
+
+.group3 {
+    position: absolute;
+    border: 1px solid rgb(188, 51, 51);
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+
+/*NEWS***************************************/
+#news {
+    overflow: hidden;
+    padding-top: calc(0.1rem + 60px);
+}
+
+#news h2 {
+    font-family: Artifika;
+    text-align: center;
+    color: rgb(188, 51, 51);
+    padding: 20px;
+}
+
+
+.newslist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stacklist {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+    border: 1px solid rgb(188, 51, 51);
+    border-style: dashed;
+    padding: 15px; 
+ 
+}
+ 
+.stacklist a {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+
+.stacklist a img {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 10px; 
+    vertical-align: middle;
+  }
+
+/*FEEDBACK***************************************/
+#feedback {
+    overflow: auto;
+    background-image: url(images/background2.jpg);
+    text-align: center;
+}
+#feedback h2 {
+    font-size: 25px;
+    padding: 10px;
+    font-family: Artifika;
+}
+#feedback p {
+    margin-top: -20px;
+}
+label {
+    font-family: Amaranth;
+    display: block;
+    text-align: left;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+.fb{
+    color: #85142c;
+    border: 1px solid #d4644b;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #f7dede;
+    margin: auto;
+    padding: 20px;
+    padding-top: 3px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: -20px;
+    padding-top: 10px;
+    max-width: 500px;
+    min-width: 300px;
+}
+fieldset {
+    border-style: solid;
+    border-color:#8B4513;
+    border-radius: 10px;
+    padding: 1rem 0;
+    padding-left: 2em;
+    margin-bottom: 20px;
+}
+input, textarea, select {
+    margin: 10px 0 0 0;
+    width: 90%;
+    min-height: 3em;
+}
+input, textarea {
+    border: 1px solid #8B4513;
+    color: #8B4513;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+input[type="submit"] {
+    display: block;
+    width: 10%;
+    margin: 0.5em auto;
+    height: 5%;
+    font-size: 18px;
+    color: #8B4513;
+    min-width: 100px;
+    border: 2px solid #8B4513;
+    border-radius: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); 
+}
+/****************************************/
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 3;
+    background-color: #ffffff;
+    color: #333;
+    
+}
+
+header {
+    padding-left: 1000px;
+    background-color: #BD2949;
+    color: #fff;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    height: 70px; 
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-top: 2px;
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 30px; 
+}
+
+/* Other sections */
+section {
+    min-height: 100vh;
+    padding: 2rem;
+    padding-top: calc(2rem + 60px); 
+}
+
+
+
+
+/* Footer section*/
+footer {
+    background-color: #BD2949;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: sticky;
+    height: 70px;
+    
+}
+
+@media (max-width: 768px) {
+    #team {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+}
+
+a {
+    color: rgb(188, 51, 51);
+    text-decoration: none;
+ }

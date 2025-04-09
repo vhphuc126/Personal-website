@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+	  <title>Harvest Festival Survey Form</title>
+   	<link rel="stylesheet" href="SurveyStyle.css" />
+  </head>
+ 	<body>
+		 <div class="survey">
+   	<h1 id="title">Harvest Festival Survey Form</h1>
+     <p id="description"><em>- Your time means a lot to us -</em></p>
+     <form method="post" action= "https://formsubmit.co/vhphuc126@gmail.com" id="survey-form">
+		 <fieldset id="survey-form">
+			 <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder=" First and last name" required/>
+				 </label>
+			 <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" placeholder=" @ or . in the domain" required/>
+				 </label>
+			 <label for="number" id="number-label">Enter your age: <input id="number" name="number" type="number" min="13" max="120" placeholder=" From 13 to 120" required/>
+				 </label>
+			 <label for="dropdown">How did you hear about us? 
+				 <select id="dropdown">
+					 <option value="">(Select one)</option>
+					 <option value="1">Google</option>
+					 <option value="2">Facebook</option>
+					 <option value="3">Instagram</option>
+					 <option value="4">Other</option>
+					 </select>
+				 </label>
+			 <label>What did you enjoy the most about our festival? </label>
+			 <label for="Entertainment"><input id="Entertainment" type="checkbox" value="Entertainment" name="check" class="inline"/> Entertainment</label>
+			 <label for="FD"><input id="FD" type="checkbox" value="FD" name="check" class="inline"/> Food & Drinks</label>
+			 <label for="Atmosphere"><input id="Atmosphere" type="checkbox" value="Atmosphere" name="check" class="inline"/> Atmosphere<label>
+			 <label for="Activities"><input id="Activities" type="checkbox" name="check" value="Activities" class="inline"/> Activities</label>
+			 <label for="Shopping & Stalls"><input id="Shopping & Stalls" type="checkbox" name="check" value="Shopping & Stalls" class="inline"/> Shopping & Stalls</label>
+				 <label>How would you rate your overall experience at the festival?</label>
+			 <label for="Excellent"><input id="Excellent" type="radio" name="rate" class="inline" value="Excellent"/> Excellent</label>
+			 <label for="Good"><input id="Good" type="radio" name="rate" class="inline" value="Good"/> Good</label>
+			 <label for="Average"><input id="Average" type="radio" name="rate" class="inline" value="Average"/> Average</label>
+			 <label for="Poor"><input id="Poor" type="radio" name="rate" class="inline" value="Poor"/> Poor</label>
+			 <label>Would you recommend us to your friends?</label>
+			 <label for="Sure"><input id="Sure" type="radio" name="recommend"class="inline" value="Sure"/> Sure</label>
+			 <label for="not"><input id="not" type="radio" name="recommend" class="inline" value="not"/> Maybe not</label>
+			<label for="suggestion">What could we improve for next year’s festival?
+          <textarea id="suggestion" name="bio" rows="3" cols="30" placeholder=" Enter your comments or suggestions here..."></textarea>
+        </label>
+		</fieldset>
+
+	<p id="description"><em> Thank you for your feedback </em></p>
+			<input type="submit" id="submit" value="Submit" />
+			</form>
+		 </div>
+	</body>
+	</html>
